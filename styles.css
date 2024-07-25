@@ -1,35 +1,69 @@
+/* Asegura que el cuerpo no tenga margen ni relleno que cause desbordamiento */
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #c4bebe;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     font-size: 20px;
+    box-sizing: border-box;
 }
+/* Ajuste para el título */
+.title {
+    margin-top: 20px; /* Ajusta este valor según sea necesario */
+    margin-bottom: 20px; /* Ajusta este valor para un buen espaciado */
+    font-size: 2.5rem; /* Ajusta el tamaño del texto según tus preferencias */
+    text-align: center; /* Centra el texto si es necesario */
+    font-family: 'Poppins', sans-serif; /* Asegúrate de que la fuente sea consistente */
+}
+
+
+/* Asegura que el contenedor no cause desbordamiento */
+.container {
+    max-width: 100%;
+    padding: 0 15px; /* Añade un relleno horizontal para evitar que el contenido toque los bordes */
+    box-sizing: border-box;
+}
+
+/* Asegura que el formulario y los elementos no causen desbordamiento */
 form {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    margin: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
+
+/* Asegura que las imágenes se ajusten al contenedor */
+.nav-img {
+    max-width: 100%;
+    height: auto;
 }
+
+/* Ajusta el tamaño del botón de envío */
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #4589a0;
+}
+
+/* Asegura que los elementos de entrada no causen desbordamiento */
 input[type="text"],
 input[type="email"],
-input[type="number"],
-input[type="date"],
+input[type="tel"],
 textarea {
-    width: calc(100% - 20px);
+    width: 100%;
     padding: 8px;
     margin-bottom: 20px;
     border: 1px solid #0c0c0c;
     border-radius: 4px;
     font-size: 20px;
-}
-input[type="submit"]:hover {
-    background-color: #4589a0;
+    box-sizing: border-box;
 }
