@@ -1,27 +1,69 @@
+/* Asegura que el cuerpo no tenga margen ni relleno que cause desbordamiento */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f8f9fa;
-  }
-  
-  .navbar {
-    background-color: #343a40;
-  }
-  
-  .navbar-brand {
-    font-weight: 700;
-    color: #fff;
-  }
-  
-  .navbar-nav .nav-link {
-    color: #fff;
-  }
-  
-  .header {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  .header h1 {
-    font-size: 2.5rem;
-    font
-  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c4bebe;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+/* Ajuste para el título */
+.title {
+    margin-top: 20px; /* Ajusta este valor según sea necesario */
+    margin-bottom: 20px; /* Ajusta este valor para un buen espaciado */
+    font-size: 2.5rem; /* Ajusta el tamaño del texto según tus preferencias */
+    text-align: center; /* Centra el texto si es necesario */
+    font-family: 'Poppins', sans-serif; /* Asegúrate de que la fuente sea consistente */
+}
+
+
+/* Asegura que el contenedor no cause desbordamiento */
+.container {
+    max-width: 100%;
+    padding: 0 15px; /* Añade un relleno horizontal para evitar que el contenido toque los bordes */
+    box-sizing: border-box;
+}
+
+/* Asegura que el formulario y los elementos no causen desbordamiento */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Asegura que las imágenes se ajusten al contenedor */
+.nav-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajusta el tamaño del botón de envío */
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #4589a0;
+}
+
+/* Asegura que los elementos de entrada no causen desbordamiento */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #0c0c0c;
+    border-radius: 4px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
