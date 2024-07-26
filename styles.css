@@ -53,6 +53,15 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #4589a0;
 }
+.carousel-img {
+  max-height: 500px; /* Ajusta según el tamaño que desees */
+  object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+  border-radius: 5px; /* Opcional: bordes redondeados para un diseño más moderno */
+}
+
 
 /* Asegura que los elementos de entrada no causen desbordamiento */
 input[type="text"],
