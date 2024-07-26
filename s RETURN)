@@ -1,0 +1,37 @@
+[33mcommit 8c6c763ed5858d94f8f9df13331d916422e10006[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: yesica1983 <yesisofra22@outlook.com>
+Date:   Thu Jul 25 20:52:56 2024 -0300
+
+    Implementación de mejoras en el formulario y navegación
+    
+    - Se actualizó la barra de navegación para incluir enlaces a las nuevas secciones de 'Inicio', 'Lotes Comerciales', 'Lotes Residenciales' y 'Contacto'.
+    - Se modificó el formulario de contacto:
+      - Se añadieron campos para 'Nombre', 'Apellido', 'Correo Electrónico', 'Teléfono de Contacto' y 'Motivo de Consulta'.
+      - Se mejoró el diseño y la apariencia del formulario.
+    - Se implementó validación del formulario usando JavaScript:
+      - Validación de campos 'Nombre', 'Apellido', 'Correo Electrónico', 'Teléfono de Contacto' y 'Motivo de Consulta'.
+      - Mensajes de error y éxito proporcionados mediante Toastify.
+    - Se añadieron dos nuevas páginas HTML:
+      - 'lotes_comerciales.html': Información sobre lotes comerciales.
+      - 'lotes_residenciales.html': Información sobre lotes residenciales.
+    - Se corrigió el enlace en la barra de navegación para dirigir correctamente a la sección de contacto en el mismo documento.
+    
+    Estos cambios mejoran la navegación del sitio, la validación del formulario y la accesibilidad a la información sobre lotes comerciales y residenciales.
+
+[33mcommit ac258d6a933cd5752f60414c76096e96469ab70a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: roxymarchetto <roxanamarchetto@gmail.com>
+Date:   Thu Jul 25 14:30:31 2024 -0300
+
+    Primeras ideas
+
+[33mcommit dba6a7545e03a75e6e4770ea00fdeada5718f5c6[m
+Author: roxymarchetto <roxanamarchetto@gmail.com>
+Date:   Thu Jul 25 12:28:41 2024 -0300
+
+    imagenes
+
+[33mcommit 0edba78f1fe01d902a1ed715b1c4c5a58d4db5dd[m
+Author: Roxana MARCHETTO <117780979+roxymarchetto@users.noreply.github.com>
+Date:   Thu Jul 25 01:53:14 2024 -0300
+
+    Create README.md
