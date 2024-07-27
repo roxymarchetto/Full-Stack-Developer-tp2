@@ -86,4 +86,23 @@ textarea {
     height: 100%; /* Ajusta la altura al 100% del contenedor */
     object-fit: cover; /* Mantiene la imagen cubierta sin distorsionar */
   }
-   
+  .whatsapp_float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    background-color: #25D366; /* Color de fondo */
+    border-radius: 50%; /* Forma circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+  }
+  
+  .whatsapp_icon {
+    width: 40px; /* Ajuste del tamaño del icono */
+    height: 40px;
+  }
+  
