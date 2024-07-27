@@ -58,7 +58,7 @@ button[type="submit"]:hover {
   object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
 }
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+  background-color: rgba(0, 0, 0, 0.036); /* Fondo semitransparente para el texto */
   border-radius: 5px; /* Opcional: bordes redondeados para un diseño más moderno */
 }
 
