@@ -76,3 +76,14 @@ textarea {
     font-size: 20px;
     box-sizing: border-box;
 }
+  .carousel {
+    height: 420px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Ajusta el ancho a 100% del contenedor */
+    height: 100%; /* Ajusta la altura al 100% del contenedor */
+    object-fit: cover; /* Mantiene la imagen cubierta sin distorsionar */
+  }
+   

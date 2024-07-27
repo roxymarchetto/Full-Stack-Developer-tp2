@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lotes Comerciales - DISTRETTO 92</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .carousel-img {
+      height: 500px;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -34,13 +40,15 @@
   </nav>
   <div class="container mt-4">
     <h1>Lotes Comerciales</h1>
-    <p>https://maps.app.goo.gl/SEo9yNpgB8vJpTUv9</p>
+    <a href="https://maps.app.goo.gl/SEo9yNpgB8vJpTUv9" target="_blank" class="btn btn-link">Ver en Google Maps</a>
 
     <div id="lotesCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#lotesCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#lotesCarousel" data-slide-to="1"></li>
         <li data-target="#lotesCarousel" data-slide-to="2"></li>
+        <li data-target="#lotesCarousel" data-slide-to="3"></li>
+        <li data-target="#lotesCarousel" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -58,10 +66,17 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="imagenes/planimetria.jpg" class="d-block w-100 carousel-img" alt="Plano Manzana L">
+          <img src="imagenes/Nave Basica.JPG" class="d-block w-100 carousel-img" alt="Tipología Nave Básica">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Planimetria</h5>
-            <p>Sobre Ruta 9 y Ruta 2</p>
+            <h5>Construcción</h5>
+            <p>Tipología Nave Básica</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/Nave Mejorada.JPG" class="d-block w-100 carousel-img" alt="Tipología Nave Mejorada">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Contrucción</h5>
+            <p>Tipología Nave Mejorada</p>
           </div>
         </div>
       </div>
@@ -85,3 +100,4 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
+
