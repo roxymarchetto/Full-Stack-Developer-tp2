@@ -57,10 +57,10 @@ function validateEmail(email) {
 
 function changeFormStyles() {
   const formulario = document.getElementById('formulario');
-  if (formulario.style.backgroundColor !== 'green'){
-      formulario.style.backgroundColor = 'green';
+  if (formulario.style.backgroundColor !== 'white'){
+      formulario.style.backgroundColor = 'white';
   } else {
-      formulario.style.backgroundColor = '#ffffff';
+      formulario.style.backgroundColor = '#9dcee2';
   }
 }
 
