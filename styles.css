@@ -1,30 +1,28 @@
-/* Asegura que el cuerpo no tenga margen ni relleno que cause desbordamiento */
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #c4bebe;
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    box-sizing: border-box;
-}
-/* Ajuste para el título */
-.title {
-    margin-top: 20px; /* Ajusta este valor según sea necesario */
-    margin-bottom: 20px; /* Ajusta este valor para un buen espaciado */
-    font-size: 2.5rem; /* Ajusta el tamaño del texto según tus preferencias */
-    text-align: center; /* Centra el texto si es necesario */
-    font-family: 'Poppins', sans-serif; /* Asegúrate de que la fuente sea consistente */
+/* CARRUSEL DE IMÁGENES */
+
+.element-img{
+  height: 200px;
+  width: 100%;
+  object-fit: fill;
+  filter: brightness(0.6);
+
 }
 
-
-/* Asegura que el contenedor no cause desbordamiento */
-.container {
-    max-width: 100%;
-    padding: 0 15px; /* Añade un relleno horizontal para evitar que el contenido toque los bordes */
-    box-sizing: border-box;
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:9.75vw;
+  top:0;
+  height:80%;
+  width:80%;
+  position:absolute;
 }
 
-/* Asegura que el formulario y los elementos no causen desbordamiento */
+
 form {
     background-color: #ffffff;
     padding: 20px;
@@ -34,34 +32,21 @@ form {
     box-sizing: border-box;
 }
 
-/* Asegura que las imágenes se ajusten al contenedor */
-.nav-img {
-    max-width: 100%;
-    height: auto;
-}
 
 /* Ajusta el tamaño del botón de envío */
 button[type="submit"] {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 button[type="submit"]:hover {
-    background-color: #4589a0;
+  background-color: #4589a0;
+  border: none;
 }
-.carousel-img {
-  max-height: 500px; /* Ajusta según el tamaño que desees */
-  object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
-}
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.036); /* Fondo semitransparente para el texto */
-  border-radius: 5px; /* Opcional: bordes redondeados para un diseño más moderno */
-}
-
 
 /* Asegura que los elementos de entrada no causen desbordamiento */
 input[type="text"],
@@ -76,33 +61,3 @@ textarea {
     font-size: 20px;
     box-sizing: border-box;
 }
-  .carousel {
-    height: 420px; /* Ajusta la altura según tus necesidades */
-    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
-  }
-  
-  .carousel-item img {
-    width: 100%; /* Ajusta el ancho a 100% del contenedor */
-    height: 100%; /* Ajusta la altura al 100% del contenedor */
-    object-fit: cover; /* Mantiene la imagen cubierta sin distorsionar */
-  }
-  .whatsapp_float {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
-    height: 60px;
-    z-index: 1000;
-    background-color: #25D366; /* Color de fondo */
-    border-radius: 50%; /* Forma circular */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra */
-  }
-  
-  .whatsapp_icon {
-    width: 40px; /* Ajuste del tamaño del icono */
-    height: 40px;
-  }
-  
