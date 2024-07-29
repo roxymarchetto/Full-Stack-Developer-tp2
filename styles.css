@@ -76,10 +76,43 @@ textarea {
     font-size: 20px;
     box-sizing: border-box;
 }
-<style>
-      .carousel-inner img {
-        width: 100%;
-        height: 60vh; /* Ajusta la altura según sea necesario */
-        object-fit: cover;
-      }
-    </style>
+
+.carousel-inner img {
+  width: 100%;
+  height: 50vh; /* Ajusta la altura según sea necesario */
+  object-fit: cover;
+} 
+
+/* Estilos personalizados para la barra de navegación */
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.25rem; /* Tamaño de fuente más grande */
+  display: flex;
+  justify-content: center;
+}
+.navbar-custom .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navbar-custom .navbar-brand {
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Estilo para el ícono de WhatsApp flotante */
+.whatsapp_float {
+  position: fixed;
+  bottom: 350px; /* Distancia desde el fondo de la página */
+  right: 20px;  /* Distancia desde el margen derecho de la página */
+  z-index: 1000; /* Asegura que el ícono esté sobre otros elementos */
+}
+
+.whatsapp_icon {
+  width: 60px; /* Tamaño del ícono */
+  height: 60px; /* Tamaño del ícono */
+  border-radius: 50%; /* Hace que el ícono sea circular */
+  background-color: #25D366; /* Fondo verde de WhatsApp */
+  padding: 10px; /* Espacio interno para que el ícono no quede pegado al borde */
+}
