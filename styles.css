@@ -8,19 +8,10 @@
 }
 
 .element1-img{
-  height: 200px;
-  width: 100%;
-  object-fit: fill;
-  filter: brightness(0.6);
-
-}
-
-.element1-img{
   height: 65vh;
   width: 50%;
   object-fit: fill;
   filter: brightness(0.6);
-
 }
 
 .map-responsive{
