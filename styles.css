@@ -107,3 +107,23 @@ textarea {
   background-color: #25D366; /* Fondo verde de WhatsApp */
   padding: 10px; /* Espacio interno para que el ícono no quede pegado al borde */
 }
+/* Asegura que los mensajes Toastify se muestren claramente */
+.toastify {
+  z-index: 1050; /* Asegura que esté sobre otros elementos */
+  padding: 10px 20px; /* Aumenta el padding para mejor visibilidad */
+  font-size: 16px; /* Tamaño de fuente más grande */
+  color: #ffffff; /* Color de texto blanco */
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con opacidad */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.toastify.toastify-top-right {
+  top: 20px; /* Distancia desde la parte superior */
+  right: 20px; /* Distancia desde el borde derecho */
+}
+
+.toastify.toastify-bottom-right {
+  bottom: 20px; /* Distancia desde la parte inferior */
+  right: 20px; /* Distancia desde el borde derecho */
+}
+
